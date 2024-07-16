@@ -8,7 +8,7 @@ int main()
     if (b != 0) {
         printf("%d\n%d\n%d\n%d\n%d\n", a + b, a - b, a * b, a / b, a % b);
     } else {
-        printf("%d\n%d\n%d\nDivision by zero is not allowed.\n", a + b, a - b, a * b);
+        printf("0으로 나눌 수는 없습니다.");
     }
     
     return 0;
